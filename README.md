@@ -60,7 +60,7 @@ $ git clone https://github.com/christian80gabi/hyprland-dotfiles.git
 
 $ cd hyprland-dotfiles
 
-cp ./.config/* ~/.config/
+cp ./.config/* ~/.config/ -r
 
 ```
 
