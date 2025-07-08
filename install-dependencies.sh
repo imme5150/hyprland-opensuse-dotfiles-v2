@@ -11,7 +11,7 @@ echo "Installing Hyprland"
 sudo zypper install -y hyprland 
 
 echo "Installing Hyprland utilities"
-sudo zypper install hyprpolkitagent hyprpaper hyprcursor hypridle hyprlock hyprshot hyprpicker kitty xdg-menu
+sudo zypper install -y hyprpolkitagent hyprpaper hyprcursor hypridle hyprlock hyprshot hyprpicker kitty xdg-menu
 
 echo "Installing QT & GTK Support tools"
 sudo zypper install -y hyprland-qtutils kvantum-manager kvantum-themes hyprland-qt-support qt6-wayland
